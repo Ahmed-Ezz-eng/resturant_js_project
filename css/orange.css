@@ -1,0 +1,56 @@
+nav.sticky,
+.home .home-desc button,
+.chat-icon,
+.chatbox-desc,
+.about .about-desc i.fa,
+.about .about-header span,
+.active-menu,
+.section-header div.line,
+.product .product-content button,
+.product .swiperArrow,
+.chef .chef-content,
+.testmonial .testmonial-content .client-name,
+.contact button,
+footer,
+.goup,
+.colorMenu .icon-cog
+
+{
+    background: orangered;
+}
+
+.home .home-desc h1 span,
+.about .about-header h2,
+.lb-data .lb-number,
+.section-header h2,
+.Menu .menu-desc h4,
+.chef .chef-content a,
+.contact .contact-desc i.fa,
+.contact .contact-desc h4
+{
+    color: orangered;
+}
+.about img,
+.testmonial .testmonial-content:hover img
+{
+    border: 5px solid orangered;
+    transition: all .5s;
+}
+.Menu .menu-list li{
+    border: 2px solid orangered;
+}
+.success-stroke {
+    stroke: orangered;
+}
+.testmonial .testmonial-content ul li:hover{ 
+    border-right: 10px solid orangered;
+    border-left: 10px solid orangered;
+}
+@media(max-width:768px){
+    nav{
+        background: orangered;
+    }
+    nav ul li a, nav ul li a:hover{
+        color: orangered;
+    }
+}

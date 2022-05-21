@@ -1,0 +1,736 @@
+<html>
+<head>  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+<link rel="stylesheet" href="css/bootstrap.min.css">  
+<!--  font awesome -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+        <!--  circular progress par -->
+<link rel="stylesheet" href="css/progresscircle.css">
+<!--Swiper slider images -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<!--  image filtter  => light box-->
+<link rel="stylesheet" href="css/lightbox.min.css"> 
+<link rel="stylesheet" href="css/style.css">    
+<link rel="stylesheet" href="css/red.css" title = "red" class="alter">    
+<link rel="stylesheet" href="css/blue.css" title = "blue" class="alter" disabled>    
+<link rel="stylesheet" href="css/orange.css" title = "orange" class="alter" disabled>    
+</head>  
+<body>
+
+<!-- Home -->
+
+<section class="home">
+<!--  Navbar -->
+  
+   <nav class="navbar-fixed-top">
+      <div class="container">
+       <a href="#" class="navbar-brand">
+           <span>resturant</span>
+       </a>
+       <ul class="list-unstyled navbar-right">
+           <li><a class = "nav-link" data-link = "home">home</a></li>
+           <li><a class = "nav-link" data-link = "about">about</a></li>
+           <li><a class = "nav-link" data-link = "menu">menu</a></li>
+           <li><a class = "nav-link" data-link = "product">drinks</a></li>
+           <li><a class = "nav-link" data-link = "quality">quality</a></li>
+           <li><a class = "nav-link" data-link = "chef">chef</a></li>
+           <li><a class = "nav-link" data-link = "testmonial">testmonial</a></li>
+           <li><a class = "nav-link" data-link = "contact">contact</a></li>
+       </ul>
+       </div>
+       <i class="fa fa-bars fa-2x"></i>
+   </nav>
+   
+<!--   Images slider -->
+
+    <img class="home-img">
+    <div class="home-layer"></div>
+    
+<!--  Home description -->
+<div class="home-desc">
+    <h1>welcome <span>food</span> lovers</h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium necessitatibus eaque molestiae? Eaque vitae aliquid, ipsum, nulla, quod cum similique ratione incidunt ex nostrum.
+    </p>
+    <button>get started</button>
+</div>
+
+<!--  Chat box -->
+
+<div class="chat-icon hidden-sm hidden-xs">
+    <i class="fa fa-comments fa-2x"></i>
+</div>
+
+<div class="chatbox  hidden-sm hidden-xs">
+    <div class="chatbox-desc">
+       <img src="images/team/chef6.jpg" class="img-circle">
+        <span>Ahmed Ezzat</span>
+        <p>
+            We can help you at any time
+        </p>
+    </div>
+    <textarea placeholder="Type Your Message" class="input-lg"></textarea>
+</div>
+</section>
+
+<!--  Color Menu  -->
+    
+<div class="colorMenu">
+<h4>Chane color</h4>
+<ul>
+    <li title="red" onclick="setColor('red')"></li>
+    <li title="blue" onclick="setColor('blue')"></li>
+    <li title="orange" onclick="setColor('orange')"></li>
+</ul>
+<div class="icon-cog">
+<i class="fa fa-cog fa-spin fa-2x"></i>
+</div>
+</div>
+
+<!--  About -->
+
+<section class="about padding-top">
+   
+    <div class="container">
+        <div class="about-header">
+            <h2>about us</h2>
+            <span class="about-line"></span>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <div class="about-desc">
+                    <p>
+                        Possessive pronouns can help identify whether you’re talking about specific or nonspecific items. As we’ve seen, articles also indicate specificity. But if you use both a possessive pronoun and an article at the same time, readers will become confused. Possessive pronouns are words like his, my, our, its, her, and their. Articles should not be used with pronouns. Consider the examples below.
+                    </p>
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="fa fa-check fa-border"></i>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                        </li>
+
+                        <li>
+                            <i class="fa fa-check fa-border"></i>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                        </li>
+
+                        <li>
+                            <i class="fa fa-check fa-border"></i>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                        </li>
+
+                        <li>
+                            <i class="fa fa-check fa-border"></i>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <img src="images/team/chef7.jpg" class="img-circle center-block img-responsive">
+            </div>
+        </div>
+    </div>
+        
+<div class="about-stat">
+    <h2 class="text-center">Our statistics</h2>
+    <div class="container">
+        <div class="stat-area">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="single-stat">
+                    <div class="circlechart" data-percentage="100"><span>pizza</span></div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="single-stat">
+                    <div class="circlechart" data-percentage="80"><span>sushi</span></div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="single-stat">
+                    <div class="circlechart" data-percentage="90"><span>meat</span></div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="single-stat">
+                    <div class="circlechart" data-percentage="85"><span>soup</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        
+</section>
+  
+
+<!--  Start Menu  -->
+
+<section class="Menu padding-top">
+    <div class="section-header">
+        <h2>our menu</h2>
+        <div class="line"></div>
+    </div>
+    <ul class="menu-list">
+        <li class="active-menu" data-filter ="all">All</li>
+        <li data-filter ="salad">Salad</li>
+        <li data-filter ="soup">Soup</li>
+        <li data-filter ="pizza">Pizza</li>
+    </ul>
+<div class="container">
+
+<div class="gallery">
+   
+    <a href="images/product/pizza1.jpg" class="imgFilter pizza" data-lightbox="image-1">
+    <img src = "images/product/pizza1.jpg"></a>
+    
+    <a href="images/product/salad1.jpg" class="imgFilter salad" data-lightbox="image-1">
+    <img src = "images/product/salad1.jpg"></a>
+    
+    <a href="images/product/soup4.jpg" class="imgFilter soup" data-lightbox="image-1">
+    <img src = "images/product/soup4.jpg"></a>
+    
+    <a href="images/product/sushi1.jpg" class="imgFilter sushi" data-lightbox="image-1">
+    <img src = "images/product/sushi1.jpg"></a>
+    
+    
+    <a href="images/product/pizza2.jpg" class="imgFilter pizza" data-lightbox="image-1">
+    <img src = "images/product/pizza2.jpg"></a>
+    
+    <a href="images/product/salad2.jpg" class="imgFilter salad" data-lightbox="image-1">
+    <img src = "images/product/salad2.jpg"></a>
+    
+    <a href="images/product/soup3.jpg" class="imgFilter soup" data-lightbox="image-1">
+    <img src = "images/product/soup2.jpg"></a>
+    
+    <a href="images/product/sushi2.jpg" class="imgFilter sushi" data-lightbox="image-1">
+    <img src = "images/product/sushi2.jpg"></a>
+    
+    
+    <a href="images/product/pizza3.jpg" class="imgFilter pizza" data-lightbox="image-1">
+    <img src = "images/product/pizza3.jpg"></a>
+    
+    <a href="images/product/salad3.jpeg" class="imgFilter salad" data-lightbox="image-1">
+    <img src = "images/product/salad3.jpeg"></a>
+    
+    <a href="images/product/soup3.jpg" class="imgFilter soup" data-lightbox="image-1">
+    <img src = "images/product/soup3.jpg"></a>
+    
+    <a href="images/product/sushi3.jpg" class="imgFilter sushi" data-lightbox="image-1">
+    <img src = "images/product/sushi3.jpg"></a>
+    
+</div>
+<div class="row otherMenu">
+    <div class="col-md-6 col-xs-12">
+        <div class="menu-desc">
+            <img src="images/product/sushi1.jpg" class="img-responsive pull-left modalDescImage">
+            <h4>chicken fried suchi</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nobis, debitis voluptas accusantium. modi totam enim. Praesentium qui laudantium, repudiandae quos.
+            </p>
+        </div>
+    </div>
+    
+    
+    <div class="col-md-6 col-xs-12">
+        <div class="menu-desc">
+            <img src="images/product/pizza4.jpg" class="img-responsive pull-left modalDescImage">
+            <h4>chicken fried pizza</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nobis, debitis voluptas accusantium. modi totam enim. Praesentium qui laudantium, repudiandae quos.
+            </p>
+        </div>
+    </div>
+    
+    
+    <div class="col-md-6 col-xs-12">
+        <div class="menu-desc">
+            <img src="images/product/salad4.jpg" class="img-responsive pull-left modalDescImage">
+            <h4>chicken fried salad</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nobis, debitis voluptas accusantium. modi totam enim. Praesentium qui laudantium, repudiandae quos.
+            </p>
+        </div>
+    </div>
+    
+    
+    <div class="col-md-6 col-xs-12">
+        <div class="menu-desc">
+            <img src="images/product/soup4.jpg" class="img-responsive pull-left modalDescImage">
+            <h4>chicken fried soup</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nobis, debitis voluptas accusantium. modi totam enim. Praesentium qui laudantium, repudiandae quos.
+            </p>
+        </div>
+    </div>
+</div>
+</div>                        
+</section>
+<!--  End Menu -->
+
+<div class="model">
+    <img src="">
+    <i class="fa fa-times fa-3x closeModel"></i>
+</div>
+
+<!--  Our product  -->
+
+<section class="product padding-top">
+<div class="section-header">
+    <h2>our fresh drinks</h2>
+    <div class="line"></div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="product-content text-center">
+                <div class="product-img-box">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                           
+                            <div class="swiper-slide" style="background-image:url(images/product/juice.jpg)"></div>
+                            
+                            <div class="swiper-slide" style="background-image:url(images/product/juice1.jpg)"></div>
+                            
+                            <div class="swiper-slide" style="background-image:url(images/product/juice2.jpg)"></div>
+                            
+                            <div class="swiper-slide" style="background-image:url(images/product/juice3.gif)"></div>
+                        </div>
+
+                   <div class="fa fa-chevron-left button-prev swiperArrow"></div>
+                   <div class="fa fa-chevron-right button-next swiperArrow"></div>
+                    </div>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut itaque fugiat ab quisquam quos quae velit! Dignissimos dolore unde, alias ut corrupti at dolorem nostrum quam dolor quis fugiat officia.
+                </p>
+                <button>Read More</button>
+            </div>
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="product-content text-center">
+                <div class="product-img-box">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                           
+                            <div class="swiper-slide" style="background-image:url(images/product/juice4.jpg)"></div>
+                            
+                            <div class="swiper-slide" style="background-image:url(images/product/juice5.jpg)"></div>
+                            
+                            <div class="swiper-slide" style="background-image:url(images/product/juice6.jpg)"></div>
+                            
+                            <div class="swiper-slide" style="background-image:url(images/product/juice7.jpg)"></div>
+                        </div>
+
+                   <div class="fa fa-chevron-left button-prev swiperArrow"></div>
+                   <div class="fa fa-chevron-right button-next swiperArrow"></div>
+                    </div>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut itaque fugiat ab quisquam quos quae velit! Dignissimos dolore unde, alias ut corrupti at dolorem nostrum quam dolor quis fugiat officia.
+                </p>
+                <button>Read More</button>
+            </div>
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="product-content text-center">
+                <div class="product-img-box">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                           
+                            <div class="swiper-slide" style="background-image:url(images/product/juice8.jpg)"></div>
+                            
+                            <div class="swiper-slide" style="background-image:url(images/product/juice9.jpg)"></div>
+                            
+                            <div class="swiper-slide" style="background-image:url(images/product/juice10.jpg)"></div>
+                            
+                            <div class="swiper-slide" style="background-image:url(images/product/juice11.jpg)"></div>
+                        </div>
+
+                   <div class="fa fa-chevron-left button-prev swiperArrow"></div>
+                   <div class="fa fa-chevron-right button-next swiperArrow"></div>
+                    </div>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut itaque fugiat ab quisquam quos quae velit! Dignissimos dolore unde, alias ut corrupti at dolorem nostrum quam dolor quis fugiat officia.
+                </p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!--  Quality -->
+
+<section class="quality padding-top">
+<div class="section-header">
+    <h2>our quality</h2>
+    <div class="line"></div>
+</div>
+
+
+<div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="quality-box text-center">
+                    <h3>year 2018</h3>
+                    <span>100% quality</span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dignissimos nobis minus quod cupiditate, ex necessitatibus eum odit, vero voluptatem itaque 
+                    </p>
+                    <i class="fa fa-thumbs-o-up fa-3x"></i>
+                </div>
+                </div>
+                
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="quality-box text-center">
+                    <h3>year 2019</h3>
+                    <span>100% quality</span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dignissimos nobis minus quod cupiditate, ex necessitatibus eum odit, vero voluptatem itaque 
+                    </p>
+                    <i class="fa fa-thumbs-o-up fa-3x"></i>
+                </div>
+                </div>
+                
+                
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="quality-box text-center">
+                    <h3>year 2020</h3>
+                    <span>100% quality</span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dignissimos nobis minus quod cupiditate, ex necessitatibus eum odit, vero voluptatem itaque 
+                    </p>
+                    <i class="fa fa-thumbs-o-up fa-3x"></i>
+                </div>
+                </div>
+                
+                
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="quality-box text-center">
+                    <h3>year 2021</h3>
+                    <span>100% quality</span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dignissimos nobis minus quod cupiditate, ex necessitatibus eum odit, vero voluptatem itaque 
+                    </p>
+                    <i class="fa fa-thumbs-o-up fa-3x"></i>
+                </div>
+            </div>
+            
+            
+            <!-- d////////////////////////////////////-->
+            
+            
+            <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                <div class="quality-desc">
+                    <span>loewm ipasu</span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur quidem quo minus sunt doloribus maxime
+                    </p>
+                    <div class="circle"><span>1</span></div>
+                </div>
+                <button>learn more</button>
+            </div>
+            
+            
+            <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                <div class="quality-desc">
+                    <span>loewm ipasu</span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur quidem quo minus sunt doloribus maxime
+                    </p>
+                    <div class="circle"><span>2</span></div>
+                </div>
+                <button>learn more</button>
+            </div>
+            
+            
+            <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                <div class="quality-desc">
+                    <span>loewm ipasu</span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur quidem quo minus sunt doloribus maxime
+                    </p>
+                    <div class="circle"><span>3</span></div>
+                </div>
+                <button>learn more</button>
+            </div>
+            
+            
+            
+            <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                <div class="quality-desc">
+                    <span>loewm ipasu</span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur quidem quo minus sunt doloribus maxime
+                    </p>
+                    <div class="circle"><span>4</span></div>
+                </div>
+                <button>learn more</button>
+            </div>
+        </div>
+    </div> 
+
+
+</section>
+
+
+<!--  Chef  -->
+
+<section class="chef padding-top">
+    <div class="section-header">
+        <h2>our expert chef</h2>
+        <div class="line"></div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="chef-content text-center">
+                    <img src="images/team/chef3.jpg">
+                    <h3>Clay Holly</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit cumque deserunt ad perferendis velit architecto possimus ducimus repellat, tenetur voluptates perspiciatis quo ipsum quas ex consequatur nam sapiente, nisi eum!
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+            
+            
+             <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="chef-content text-center">
+                    <img src="images/team/chef4.jpg">
+                    <h3>Clay Holly</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit cumque deserunt ad perferendis velit architecto possimus ducimus repellat, tenetur voluptates perspiciatis quo ipsum quas ex consequatur nam sapiente, nisi eum!
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+            
+            
+             <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="chef-content text-center">
+                    <img src="images/team/chef6.jpg">
+                    <h3>Clay Holly</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit cumque deserunt ad perferendis velit architecto possimus ducimus repellat, tenetur voluptates perspiciatis quo ipsum quas ex consequatur nam sapiente, nisi eum!
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+            
+            
+            
+             <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="chef-content text-center">
+                    <img src="images/team/chef2.jpg">
+                    <h3>Clay Holly</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit cumque deserunt ad perferendis velit architecto possimus ducimus repellat, tenetur voluptates perspiciatis quo ipsum quas ex consequatur nam sapiente, nisi eum!
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  Testmonial -->
+
+<section class="testmonial padding-top">
+    <div class="section-header">
+        <h2>what our clients say</h2>
+        <div class="line"></div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="testmonial-content text-center">
+                    <div class="client-name">
+                        <h4>Johan Doe</h4>
+                    </div>
+                    <img src="images/team/client1.jpg">
+                    <ul class="list-unstyled">
+                        <li>Lorem ipsum dolor consectetur</li>
+                        <li>Lorem ipsum dolor consectetur</li>
+                        <li>Lorem ipsum dolor consectetur</li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="testmonial-content text-center">
+                    <div class="client-name">
+                        <h4>Johan Doe</h4>
+                    </div>
+                    <img src="images/team/client2.jpg">
+                    <ul class="list-unstyled">
+                        <li>Lorem ipsum dolor consectetur</li>
+                        <li>Lorem ipsum dolor consectetur</li>
+                        <li>Lorem ipsum dolor consectetur</li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="testmonial-content text-center">
+                    <div class="client-name">
+                        <h4>Johan Doe</h4>
+                    </div>
+                    <img src="images/team/client3.jpg">
+                    <ul class="list-unstyled">
+                        <li>Lorem ipsum dolor consectetur</li>
+                        <li>Lorem ipsum dolor consectetur</li>
+                        <li>Lorem ipsum dolor consectetur</li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="testmonial-content text-center">
+                    <div class="client-name">
+                        <h4>Johan Doe</h4>
+                    </div>
+                    <img src="images/team/client4.jpg">
+                    <ul class="list-unstyled">
+                        <li>Lorem ipsum dolor consectetur</li>
+                        <li>Lorem ipsum dolor consectetur</li>
+                        <li>Lorem ipsum dolor consectetur</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+ 
+</section>
+
+<!-- Contact -->
+
+<section class="contact padding-top">
+    <div class="section-header">
+        <h2>contact us</h2>
+        <div class="line"></div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 xol-xs-12">
+                <div class="contact-desc text-center">
+                    <i class="fa fa-home fa-2x"></i>
+                    <h4>Location</h4>
+                    <p>#123 Lima - Peru</p>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-6 xol-xs-12">
+                <div class="contact-desc text-center">
+                    <i class="fa fa-phone fa-2x"></i>
+                    <h4>Phone</h4>
+                    <p>999 - 888 - 777</p>
+                </div>
+            </div>
+            
+            
+            <div class="col-md-3 col-sm-6 xol-xs-12">
+                <div class="contact-desc text-center">
+                    <i class="fa fa-envelope-o fa-2x"></i>
+                    <h4>Gmail</h4>
+                    <p>Clayuser@email.com</p>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-6 xol-xs-12">
+                <div class="contact-desc text-center">
+                    <i class="fa fa-comments-o fa-2x"></i>
+                    <h4>Chat</h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-whatsapp"></i></li>
+                        <li><i class="fa fa-telegram"></i></li>
+                        <li><i class="fa fa-facebook"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+           
+         <div class="row">
+             <div class="col-md-6 col-sm-12">
+                 <form role="form">
+                     <div class="row">
+                         <div class="col-md-6 col-sm-12">
+                             <div class="form-group">
+                                 <input type="text" placeholder="Username" class="input-lg form-control">
+                             </div>
+                         </div>
+
+                         <div class="col-md-6 col-sm-12">
+                             <div class="form-group">
+                                 <input type="password" placeholder="password" class="input-lg form-control">
+                             </div>
+                         </div>
+                     </div>
+                     <div class="form-group">
+                         <input type="emial" placeholder="Emial" class="input-lg form-control">
+                     </div>
+
+                     <div class="form-group">
+                         <textarea placeholder="Message" class="input-lg form-control"></textarea>
+                     </div>
+
+                     <div class="form-group">
+                         <button class="btn-lg btn-block">Submit</button>
+                     </div>
+                 </form>
+             </div>
+             
+             <div class="col-md-6 col-sm-12">
+                 <div class="contactMap">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317715.7118974995!2d0.17858194783554704!3d51.528735201698254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2z2YTZhtiv2YbYjCDYp9mE2YXZhdmE2YPYqSDYp9mE2YXYqtit2K_YqQ!5e0!3m2!1sar!2seg!4v1612731397616!5m2!1sar!2seg"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                 </div>
+             </div>
+         </div>
+     </div>
+</section>            
+
+<!--     End Contact    -->
+
+<!--  Footer -->
+            
+<footer>
+    <p>Copyright &copy; the designed by Ahmed Ezzat 2021 </p>
+</footer>
+
+<!--End Footer -->
+
+<div class="goup">
+    <i class="fa fa-arrow-up fa-lg"></i>
+</div>
+
+
+<!--<div class="h" style="height: 2000px"></div>-->
+</body>    
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+<!-- light box -->
+<script src="js/lightbox.min.js"></script>
+<!-- circular progress par -->
+<script src="js/progresscircle.js"></script>
+<!-- swiper silder  -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>  
+</html>
